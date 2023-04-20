@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">  
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <form class="container">
+            <div class="col-g">
+                <h1>Informations</h1>
+                <div class="informations item">
+                    <label for="nom" id="nom-label">Nom</label>
+                    <input type="text" name="nom"/>
+                    <label for="prenom" id="prenom-label">Prénom</label>
+                    <input type="text" name="prenom"/>
+                    <label for="email" id="email-label">Email</label>
+                    <input type="email" name="email"/>
+                    <label for="tel" id="tel-label">Téléphone</label>
+                    <input type="tel" name="tel"/>
+                    <label for="linkedin" id="linkedin-label">LinkedIn</label>
+                    <input type="url" name="linkedin"/>
+                    <label for="github" id="github-label">GitHub</label>
+                    <input type="url" name="github"/>
+                    <label for="bio" id="bio-label">Biographie</label>
+                    <input type="text" name="bio"/>
+                    <label for="loisir1" id="loisir1-label">Loisir 1</label>
+                    <input type="text" name="loisir1"/>
+                    <label for="loisir2" id="loisir2-label">Loisir 2</label>
+                    <input type="text" name="loisir2"/>
+                    <label for="loisir3" id="loisir3-label">Loisir 3</label>
+                    <input type="text" name="loisir3"/>
+                </div>
+                <div class="item">
+                    <dl>
+                        <dt> Langues </dt>
+                        <dd>
+                            <input type="checkbox" name="langues" value="francais"/>
+                            <label for="francais">Français</label>
+                        </dd>
+                        <dd>
+                            <input type="checkbox" name="langues" value="anglais"/>
+                            <label for="anglais">Anglais</label>
+                        </dd>
+                        <dd>
+                            <input type="checkbox" name="langues" value="arabe"/>
+                            <label for="arabe">Arabe</label>
+                        </dd>
+                        <dd>
+                            <input type="checkbox" name="langues" value="breton"/>
+                            <label for="breton">Breton</label>
+                        </dd>
+                        <dd>
+                            <input type="checkbox" name="langues" value="espagnol"/>
+                            <label for="espagnol">Espagnol</label>
+                        </dd>
+                    </dl>
+                </div>
+                <div class="bouton">
+                    <button type="submit" id="submit">Envoyer</button>
+                </div>
+            </div>
+            <div class="col-d">
+                <h1>Compétences</h1>
+                <div class="item">
+                    <dl>
+                        <dt>Langages de Programmation</dt>
+                        <dd>
+                            <input type="checkbox" name="lang-prog" value="html"/>
+                            <label for="html">HTML</label>
+                        </dd>
+                        <dd>
+                            <input type="checkbox" name="lang-prog" value="css"/>
+                            <label for="css">CSS</label>
+                        </dd>
+                        <dd>
+                            <input type="checkbox" name="lang-prog" value="js"/>
+                            <label for="js">JavaScript</label>
+                        </dd>
+                        <dd>
+                            <input type="checkbox" name="lang-prog" value="php"/>
+                            <label for="php">PHP</label>
+                        </dd>
+                        <dd>
+                            <input type="checkbox" name="lang-prog" value="sql"/>
+                            <label for="sql">SQL</label>
+                        </dd>
+                    </dl>
+                </div>
+                <div class="item">
+                    <dl>
+                        <dt>Frameworks & Librairies</dt>
+                        <dd>
+                            <input type="checkbox" name="fram-libr" value="sass"/>
+                            <label for="sass">Sass</label>
+                        </dd>
+                        <dd>
+                            <input type="checkbox" name="fram-libr" value="bootstrap"/>
+                            <label for="bootstrap">Bootstrap</label>
+                        </dd>
+                        <dd>
+                            <input type="checkbox" name="fram-libr" value="symfony"/>
+                            <label for="symfony">Symfony</label>
+                        </dd>
+                        <dd>
+                            <input type="checkbox" name="fram-libr" value="laravel"/>
+                            <label for="laravel">Laravel</label>
+                        </dd>
+                    </dl>
+                </div>
+                <div class="item">
+                    <dl>
+                        <dt> Logiciels </dt>
+                        <dd>
+                            <input type="checkbox" name="lang-prog" value="photoshop"/>
+                            <label for="photoshop">Photoshop</label>
+                        </dd>
+                        <dd>
+                            <input type="checkbox" name="lang-prog" value="illustrator"/>
+                            <label for="illustrator">Illustrator</label>
+                        </dd>
+                        <dd>
+                            <input type="checkbox" name="lang-prog" value="xd"/>
+                            <label for="xd">XD</label>
+                        </dd>
+                        <dd>
+                            <input type="checkbox" name="lang-prog" value="figma"/>
+                            <label for="figma">Figma</label>
+                        </dd>
+                    </dl>
+                </div>
+                <div class="item">
+                    <dl>
+                        <dt> Couleur du CV </dt>
+                        <dd>
+                            <label for="couleur">Couleur</label>
+                        </dd>
+                            <select name="couleur" id="dropdown">
+                                <option value="bleu">Bleu</option>
+                                <option value="rouge">Rouge</option>
+                            </select>
+                    </dl>
+                </div>
+            </div>
+        </form>
+    </body>
+</html>

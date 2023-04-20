@@ -1,0 +1,106 @@
+/*  
+  
+rouge : #b50604;  
+bleu : #24527c;  
+blanc fond : #fefefe;  
+blanc : white;  
+gris : #bababa;  
+  
+*/
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color:#fefefe;
+    
+    
+}
+
+header {
+    background-color: #24527c;
+    height:100px;
+}
+
+.container {
+    margin:20px;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    grid-template-rows:auto;
+    grid-template-areas:
+        "col-g col-d";
+}
+
+.col-g {
+    grid-area: col-g;
+}
+
+.col-d {
+    grid-area: col-d;
+}
+
+h1 {
+    color: #24527c;
+    text-transform:uppercase;
+    font-weight:lighter;
+}
+
+dt, ul {
+    color: #24527c;
+    font-weight:lighter;
+    margin-bottom:30px;
+    margin-top:30px;
+}
+
+label {
+    font-size:0.5em;
+}
+
+input {
+    border:1px solid #bababa;
+}
+
+.informations {
+    display:flex;
+    flex-direction:column;
+    
+}
+
+.item {
+    margin:20px 20px 20px 0;
+    
+}
+
+dd {
+    margin:10px;
+}
+
+select {
+    margin:10px;
+}
+
+.bouton {
+    display:flex;
+    justify-content:center;
+}
+
+button {
+    background-color: #24527c;
+    border:none;
+    color:white;
+    padding:10px 100px 10px 100px;
+}
+
+/*=== CV ===*/
+
+.informations > dt {
+    margin:0;
+}
+
+li {
+    color:black;
+    margin-top:20px;
+}
