@@ -1,5 +1,7 @@
 <?php 
     var_dump($_GET);
+    if(isset($_GET["lang"])) 
+    $email=$_GET["lang"];
 ?>
 <!DOCTYPE html>
 <html>
@@ -13,7 +15,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;800&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css" />
     </head>
-    <body id="cv" class="blue">
+    <body id="cv" class="<?=$color;?>"> <!-- "?=" equivalent a 'echo'-->
         <header>
             <h1><span><?php echo($_GET["nom"])?></span> <?php echo($_GET["prenom"])?></h1>
             <h2>Intitulé du poste</h2>
@@ -108,6 +110,14 @@
                 <section>
                     <h4>Langues</h4>
                     <ul>
+                        <?php 
+                            foreach($lang as $item)
+                            {
+                        ?>
+                                <li><?= $item;?> <li>
+                        <?php
+                            }
+                        ?>
                         <li>Anglais</li>
                         <li>Français</li>
                         <li>Arabe</li>
