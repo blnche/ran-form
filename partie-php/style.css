@@ -52,11 +52,11 @@ h2 {
     font-weight: 400;
 }
 
-#cv.blue header {
+#cv.bleu header {
     background-color: #24527c;
 }
 
-#cv.red header {
+#cv.rouge header {
     background-color: #b50604;
 }
 
@@ -69,11 +69,11 @@ h2 {
     border-right: 1px solid #bababa;
 }
 
-#cv.blue h3, #cv.blue h4 {
+#cv.bleu h3, #cv.bleu h4 {
     color : #24527c;
 }
 
-#cv.red h3, #cv.red h4 {
+#cv.rouge h3, #cv.rouge h4 {
     color : #b50604;
 }
 
@@ -88,12 +88,12 @@ h2 {
     font-weight: 400;
 }
 
-#cv.blue dt {
+#cv.bleu dt {
     color: #24527c;
     font-weight: 600;
 }
 
-#cv.red dt {
+#cv.rouge dt {
     color: #b50604;
     font-weight: 600;
 }
